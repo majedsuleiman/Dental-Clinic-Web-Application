@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0ea5e9; /* Sky 500 */
+  --color-primary-dark: #0284c7; /* Sky 600 */
+  --color-secondary: #14b8a6; /* Teal 500 */
+  --color-accent: #f59e0b; /* Amber 500 */
+  --font-sans: 'Inter', sans-serif;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light Mode Defaults override if needed, or handle via "dark" variant which tailwind now does automatically via prefer-color-scheme by default, or class strategy */
+/* For manual toggle, we usually use "selector" strategy in v4. Defaults to "media". 
+   To use class strategy in v4, we don't need config, just add 'dark' class to html. 
+   But we need to tell tailwind to use selector strategy? 
+   Actually v4 detects it. But to force it, we might need a specific setting.
+   In v4, just adding `darkMode: 'selector'` in config... oh wait key frames.
+   
+   Using CSS variable based theming is also good.
+*/
+
+html.dark {
+  background-color: #0f172a; /* Slate 900 */
+  color: #f8fafc;
+}
+
+html.light {
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+body {
+  @apply transition-colors duration-300;
+}

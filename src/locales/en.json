@@ -1,0 +1,81 @@
+{
+    "title": "Dental Clinic",
+    "nav": {
+        "home": "Home",
+        "doctors": "Doctors",
+        "services": "Services",
+        "appointment": "Book Appointment",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "hero": {
+        "headline": "Your Smile, Our Passion",
+        "subheadline": "Experience regular dental care with our state-of-the-art facilities and expert team.",
+        "cta_book": "Book Now",
+        "cta_contact": "Contact Us"
+    },
+    "doctors": {
+        "title": "Meet Our Specialists",
+        "subtitle": "Experienced professionals dedicated to your smile",
+        "doc1_name": "Dr. Sarah Johnson",
+        "doc1_spec": "Orthodontist",
+        "doc1_exp": "15 Years Experience",
+        "doc2_name": "Dr. Ahmed Ali",
+        "doc2_spec": "Implant Surgeon",
+        "doc2_exp": "12 Years Experience",
+        "doc3_name": "Dr. Emily Davis",
+        "doc3_spec": "Cosmetic Dentist",
+        "doc3_exp": "10 Years Experience",
+        "doc4_name": "Dr. Michael Chen",
+        "doc4_spec": "Pediatric Dentist",
+        "doc4_exp": "8 Years Experience"
+    },
+    "services": {
+        "title": "Our Premium Services",
+        "subtitle": "Comprehensive care for your dental health",
+        "cleaning": "Teeth Cleaning",
+        "cleaning_desc": "Professional removal of plaque and tartar for a healthy smile.",
+        "whitening": "Teeth Whitening",
+        "whitening_desc": "Advanced whitening treatments for a brighter, more confident smile.",
+        "braces": "Orthodontics",
+        "braces_desc": "Traditional braces and clear aligners to straighten your teeth.",
+        "implants": "Dental Implants",
+        "implants_desc": "Permanent and natural-looking solutions for missing teeth.",
+        "surgery": "Oral Surgery",
+        "surgery_desc": "Expert surgical procedures including extractions and gum surgery.",
+        "kids": "Pediatric Dentistry",
+        "kids_desc": "Gentle and specialized care for our younger patients."
+    },
+    "appointment": {
+        "title": "Book Your Appointment",
+        "subtitle": "Schedule a visit at your convenience",
+        "form": {
+            "name": "Full Name",
+            "phone": "Phone Number",
+            "service": "Select Service",
+            "date": "Preferred Date",
+            "time": "Preferred Time",
+            "submit": "Book Appointment",
+            "success": "Appointment booked successfully! We will contact you soon."
+        }
+    },
+    "about": {
+        "title": "About Our Clinic",
+        "subtitle": "Leading dental care since 2010",
+        "desc": "We are committed to providing the highest quality dental care using the latest technology and techniques. Our team of experienced professionals loves helping patients achieve their perfect smile.",
+        "mission": "Our Mission",
+        "mission_desc": "To provide accessible, affordable, and high-quality dental care to everyone.",
+        "vision": "Our Vision",
+        "vision_desc": "To be the most trusted and respected dental clinic in the region."
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "We are here to help",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send Message"
+        }
+    }
+}
